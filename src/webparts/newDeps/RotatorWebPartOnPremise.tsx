@@ -13,7 +13,7 @@ export default class RotatorWebPartOnPremise {
   private domElement: Element;
   public properties: INewDepsWebPartProps;
 
-  public constructor(dom: Element, props: INewDepsWebPartProps) {
+  public constructor(dom: Element, props: any) {
     this.properties = props;
     this.domElement = dom;
 

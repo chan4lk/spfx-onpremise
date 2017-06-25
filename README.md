@@ -1,6 +1,4 @@
-## new-deps
-
-This is where you include your WebPart documentation.
+## On-Premises SPFX webpart.
 
 ### Building the code
 
@@ -11,16 +9,15 @@ npm i -g gulp
 gulp
 ```
 
-This package produces the following:
+### Build On-prem
+```bash
+npm run build:onprem
+```
 
-* lib/* - intermediate-stage commonjs build artifacts
-* dist/* - the bundled script, along with other resources
-* deploy/* - all resources which should be uploaded to a CDN.
+### Run on-prem
+```bash
+npm run serve:spfx
+```
 
-### Build options
-
-gulp clean - TODO
-gulp test - TODO
-gulp serve - TODO
-gulp bundle - TODO
-gulp package-solution - TODO
+### View on-prem
+[localhost](https://localhost:4321)
