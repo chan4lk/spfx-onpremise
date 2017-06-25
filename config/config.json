@@ -1,0 +1,19 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/newDeps/NewDepsWebPart.js",
+      "manifest": "./src/webparts/newDeps/NewDepsWebPart.manifest.json",
+      "outputPath": "./dist/new-deps.bundle.js"
+    },
+    {
+      "entry": "./lib/extensions/helloWorld/HelloWorldCommandSet.js",
+      "manifest": "./src/extensions/helloWorld/HelloWorldCommandSet.manifest.json",
+      "outputPath": "./dist/hello-world.bundle.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "newDepsStrings": "webparts/newDeps/loc/{locale}.js",
+    "helloWorldStrings": "extensions/helloWorld/loc/{locale}.js"
+  }
+}

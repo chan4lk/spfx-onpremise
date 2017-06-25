@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "9eb1c4f8-8578-4370-bdd3-1da160105cae",
+  "alias": "NewDepsWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+
+  "safeWithCustomScriptDisabled": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "9eb1c4f8-8578-4370-bdd3-1da160105cae",
+    "group": { "default": "Under Development" },
+    "title": { "default": "NewDeps" },
+    "description": { "default": "NewDeps description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "NewDeps"
+    }
+  }]
+}
