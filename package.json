@@ -18,7 +18,8 @@
     "@types/webpack-env": ">=1.12.1 <1.14.0",
     "react": "15.4.2",
     "react-dom": "15.4.2",
-    "sp-http": "^1.0.0"
+    "sp-http": "^1.0.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@microsoft/sp-build-web": "~1.1.0",
@@ -34,8 +35,11 @@
     "clean": "gulp clean",
     "test": "gulp test",
     "build:spfx": "gulp bundle --gulpfile .\\gulpfile.onpremise.js",
-    "webpack" : "webpack",
+    "webpack": "webpack",
     "build:onprem": "npm run build:spfx && npm run webpack",
-    "serve:spfx": "gulp serve --gulpfile .\\gulpfile.onpremise.js"
-  }
+    "serve:spfx": "gulp serve --gulpfile .\\gulpfile.onpremise.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
